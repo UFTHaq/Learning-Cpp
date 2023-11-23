@@ -1,0 +1,39 @@
+Challenge 1 - Deque
+
+A palindrome is a string that reads the same backwards or forwards.
+Simple examples are:
+- madam
+- bob
+- toot
+- radar
+
+An entire phrase can also be a palindrome, for example:
+A toyotas a toyotas
+A santa at nasa
+A man, a plan, a cat, a ham, a yak, a yam, a hat, a canal-panama
+
+For the purpose of this assignment we will only consider alpha characters and omit
+all other characters.
+We will also not be considering case.
+so,
+a santa at nasa will be processed as:
+ASANTAATNASA
+
+A common method to solve this problem is to compare the string to its reverse and if 
+they are equal it must be a palindrome. But we will use a Deque.
+
+I am providing the main driver for you which will automatically run several test cases.
+Your challenge is to write the following funcion:
+
+bool is_palindrome(const std::string &s) {}
+
+This function will expect a string and it must determine if that string is a palindrome
+and return true if it is, or false if it is not.
+
+So,
+
+is_palindrome("A santa at nasa") will return true.
+is_palindrome("Hello") will return false
+
+if you need a hint, please ask in the Q/A
+Good luck and have fun
