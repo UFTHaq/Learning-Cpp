@@ -1,0 +1,47 @@
+/*
+    INHERITANCE - CHALLENGE
+
+    You are provided with a simple Account class hierarchy that contains 
+    Account - Base class
+    Savings Account - Derived class
+
+    An Account has a name and a balance
+    A Savings Account is and Account and adds an interest rate.
+
+    I have also provided some Account helper functions in Account_Util.h and Account_Util.cpp
+    that make it easy to display, deposit to, and withdraw from a vector of Accounts and 
+    Savings Accounts.
+
+    Please refer to the source code provided and the Video explanation of this challenge for 
+    more details.
+
+    Your challenge is the following:
+
+    1.  - Add a Checking account class to the Account hierarcy
+        - A Checking account has a name and a balance and has a fee of $1.50 per withdrawal
+         transaction.
+        - Every withdrawal transactioin will be assessed the flat fee.
+
+    2.  - Add a Trust account class to the Account hierarcy
+        - A Trust account has a name, balance, and an interest rate
+        - The Trust account deposit works just like a Savings Account deposit
+        - However, any deposit of $5000.00 or more will recieve a $50.00 bonus deposited
+          to the account.
+
+          The Trust account withdrawal should only allow 3 withdrawal per year and each of these
+          must be less than 20% of the account balance. You don't have to keep track of calendar
+          time for this application, just make sure the 4th withdrawal fails 
+
+    HINTS:
+        Reuse existing functionality
+        Think about what Base class will be for the new classes
+        Add helper functions to Account_Util.h & Account_Util.cpp if you wish to work with
+        your new classes.
+        (You don't have to, but it will make your main much easier to use)
+
+    Have fun!! You are no longer beginner C++ programmer!
+
+    If you want more practice with operator overloading you can overload += and -= for deposit
+    and withdrawal
+
+*/
