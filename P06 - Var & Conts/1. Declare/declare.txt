@@ -1,0 +1,11 @@
+int main() {
+    int age;      // unintialized
+
+    int age = 21; // C - Style initialization
+
+    int age (21); // Constructor initialization
+
+    int age {21}; // C++11 list initialization syntax
+
+    return 0;
+}
